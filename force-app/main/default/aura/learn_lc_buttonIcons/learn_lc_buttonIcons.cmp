@@ -1,0 +1,9 @@
+<aura:component >
+    <lightning:buttonIcon iconName = 'utility:help' variant = "bare" alternativeText = "help"/>
+    <lightning:buttonMenu>
+        <lightning:menuItem value ="call" label = "help" ></lightning:menuItem>
+        <lightning:menuItem value ="bbye" label = "bye" ></lightning:menuItem>
+        <lightning:menuSubheader label= "smtg"/>
+        <lightning:menuItem value ="tata" label = "tata" ></lightning:menuItem>
+    </lightning:buttonMenu>
+</aura:component>
